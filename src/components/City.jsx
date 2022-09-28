@@ -47,6 +47,7 @@ const City = ({ myCity, setCity, setData }) => {
         }
         catch (error) {
             console.log(error);
+            setCity("");
         }
     }
 
